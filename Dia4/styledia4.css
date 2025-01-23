@@ -1,0 +1,91 @@
+.plant3 {
+    position: absolute;
+    bottom: 50px; /* Altura de la planta */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px; /* Ancho del tallo */
+    height: 60px; /* Altura del tallo */
+    background-color: #228B22; /* Color verde para el tallo */
+    border-radius: 5px;
+    
+}
+
+.plant3::before, .plant3::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+   
+}
+
+.plant3::before {
+    bottom: 10px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.plant3::after {
+    bottom: 10px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+
+.hojas::before, .hojas::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+   
+}
+
+.hojas::before {
+    bottom: 40px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.hojas::after {
+    bottom: 40px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+.seed2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 10px;
+    background-color: #8B4513; /* Color marrón para la semilla */
+    border-radius: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    top: 60px;
+}
+
+.centro {
+    position: absolute;
+    bottom: 110px; /* Ajusta esta altura según el alto del tallo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px; /* Ancho del centro del girasol */
+    height: 30px; /* Altura del centro del girasol */
+    background-color: rgb(43, 26, 15); /* Color dorado para el centro del girasol */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    
+    
+}
+.petalo1 {
+    position: absolute;
+    background-color: #ffff00;
+    height: 30px;
+    width: 16px;
+    border-radius: 50%;
+    bottom: 139px;
+    left: 47%;
+    
+}

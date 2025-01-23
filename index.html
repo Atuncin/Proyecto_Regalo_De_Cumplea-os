@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalo de Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        // Función para obtener el día actual (1 a 30)
+        function getCurrentDay() {
+            const startDate = new Date('2025-01-23'); // Fecha de inicio (reemplaza con la fecha en la cual inicie el contador se actualiza segun la hora UTC (Coordinated Universal Time))
+            const today = new Date();
+            const difference = today - startDate;
+            return Math.floor(difference / (1000 * 60 * 60 * 24)) + 1;
+        }
+
+        const currentDay = getCurrentDay();
+
+        // Importar el CSS específico del día 
+        if (currentDay === 1) {
+            document.write('<link rel="stylesheet" href="Dia1/styledia1.css">');
+        }
+        if (currentDay === 2) {
+            document.write('<link rel="stylesheet" href="Dia2/styledia2.css">');
+        }
+        if (currentDay === 3) {
+            document.write('<link rel="stylesheet" href="Dia3/styledia3.css">');
+        }
+        if (currentDay === 4) {
+            document.write('<link rel="stylesheet" href="Dia4/styledia4.css">');
+        }
+        if (currentDay === 5) {
+            document.write('<link rel="stylesheet" href="Dia5/styledia5.css">');
+        }
+        if (currentDay === 6) {
+            document.write('<link rel="stylesheet" href="Dia6/styledia6.css">');
+        }
+        if (currentDay === 7) {
+            document.write('<link rel="stylesheet" href="Dia7/styledia7.css">');
+        }
+         if (currentDay === 8) {
+            document.write('<link rel="stylesheet" href="Dia8/styledia8.css">');
+        }
+        if (currentDay === 9){
+            document.write('<link rel="stylesheet" href="Dia9/styledia9.css">' );
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <!--Flor 1-->
+        <div id="flower-container">
+            <div class="seed" id="seed"></div>
+
+            <div class="plant" id="plant"> 
+                <span class="seed1" id="seed1"></span>
+            </div>
+           
+            <div class="plant3" id="plant3"> 
+                 <span class="hojas" id="hojas"></span>
+                 <span class="seed2" id="seed2"></span>
+                 
+            </div>
+             <div class="flor" id="flor">
+                 <span class="petalo1" id="petalo1"></span>
+                 <span class="petalo2" id="petalo2"></span>
+                 <span class="petalo3" id="petalo3"></span> 
+                 <span class="petalo4" id="petalo4"></span>
+                 <span class="petalo5" id="petalo5"></span>
+                 <span class="petalo6" id="petalo6"></span> 
+                 <span class="petalo7" id="petalo7"></span>
+                 <span class="petalo8" id="petalo8"></span>
+                 <span class="petalo9" id="petalo9"></span> 
+                 <span class="petalo10" id="petalo10"></span>
+                 <span class="petalo11" id="petalo11"></span>
+                 
+                 
+            </div>
+            <span class="centro" id="centro"></span>
+                        <!--Flor 2-->
+                        <div class="seed" id="seed"></div>
+
+                        <div class="plant" id="plant"> 
+                            <span class="seed1" id="seed1"></span>
+                        </div>
+                       
+                        <div class="plant4" id="plant4"> 
+                             <span class="hojas1" id="hojas1"></span>
+                             <span class="seed3" id="seed3"></span>
+                             
+                            </div>
+                         <div class="flor1" id="flor1">
+                             <span class="petalo12"></span>
+                             <span class="petalo13"></span>
+                             <span class="petalo14"></span> 
+                             <span class="petalo15"></span>
+                             <span class="petalo16"></span>
+                             <span class="petalo17"></span> 
+                             <span class="petalo18"></span>
+                             <span class="petalo19"></span>
+                             <span class="petalo20"></span> 
+                             <span class="petalo21"></span>
+                             <span class="petalo22"></span>
+                            
+                        </div>
+                        <span class="centro1" id="centro1"></span>
+                    <!-- Flor 3-->
+                    <div class="seed" id="seed"></div>
+
+                        <div class="plant" id="plant"> 
+                            <span class="seed1" id="seed1"></span>
+                        </div>
+                       
+                        <div class="plant5" id="plant5"> 
+                             <span class="hojas2" id="hojas2"></span>
+                             <span class="seed3" id="seed3"></span>
+                             
+                            </div>
+                         <div class="flor2" id="flor2">
+                             <span class="petalo23"></span>
+                             <span class="petalo24"></span>
+                             <span class="petalo25"></span> 
+                             <span class="petalo26"></span>
+                             <span class="petalo27"></span>
+                             <span class="petalo28"></span> 
+                             <span class="petalo29"></span>
+                             <span class="petalo30"></span>
+                             <span class="petalo31"></span> 
+                             <span class="petalo32"></span>
+                             <span class="petalo33"></span>
+                            
+                        </div>
+                        <span class="centro2" id="centro2"></span>
+                    
+                    <!--Flor4-->
+                  
+                        
+                     <div class="flor3" id="flor3">
+                          <span class="petalo34"></span>
+                          <span class="petalo35"></span>
+                          <span class="petalo36"></span> 
+                          <span class="petalo37"></span>
+                          <span class="petalo38"></span>
+                          <span class="petalo39"></span> 
+                          <span class="petalo40"></span>
+                          <span class="petalo41"></span>
+                          <span class="petalo42"></span> 
+                          <span class="petalo43"></span>
+                          <span class="petalo44"></span>   
+                    </div>
+                    <span class="centro3" id="centro3"></span>
+                    <!--Flor5-->
+                
+                <div class="flor4" id="flor4">
+                    
+                    <span class="petalo45"></span>
+                    <span class="petalo46"></span> 
+                    <span class="petalo47"></span>
+                    <span class="petalo48"></span>
+                    <span class="petalo49"></span>
+                    <span class="petalo50"></span>
+                    <span class="petalo51"></span>
+                    <span class="petalo52"></span>
+                    <span class="petalo53"></span>
+                    <span class="petalo54"></span>
+                    <span class="petalo55"></span>
+                    
+                    
+                </div>
+                <span class="centro4" id="centro4"></span>
+                    <!--Flor6-->
+                    <div class="flor5" id="flor5">
+                        <span class="petalo56"></span> 
+                        <span class="petalo57"></span>
+                        <span class="petalo58"></span>
+                        <span class="petalo59"></span>
+                        <span class="petalo60"></span>
+                        <span class="petalo61"></span>
+                        <span class="petalo62"></span>
+                        <span class="petalo63"></span>
+                        <span class="petalo64"></span>
+                        <span class="petalo65"></span>
+                        <span class="petalo66"></span>
+                        
+                    </div>
+                    <span class="centro5" id="centro5"></span>
+                    
+    </div>
+
+</div> 
+    <audio id="background-music" loop></audio>
+    <div id="music-info">
+        <p id="music-title"></p>
+        <!--Este apartado esta para pasar del dia 9 al 10 y ver las flores de la carpeta -- flores amarillas-- -->
+        <button id="play-pausa">Play</button>
+        <a href="flores-amarillas-tres-main/flower.html" id="dia9" style="text-decoration: none;">!Sigueme!</a>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>

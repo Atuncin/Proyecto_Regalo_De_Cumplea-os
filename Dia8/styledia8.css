@@ -1,0 +1,448 @@
+/*PRIMERA FLOR*/
+.plant3 {
+    position: absolute;
+    bottom: 50px; /* Altura de la planta */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px; /* Ancho del tallo */
+    height: 60px; /* Altura del tallo */
+    background-color: #228B22; /* Color verde para el tallo */
+    border-radius: 5px;
+}
+
+.plant3::before, .plant3::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+    
+}
+
+.plant3::before {
+    bottom: 10px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.plant3::after {
+    bottom: 10px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+.hojas::before, .hojas::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+}
+
+.hojas::before {
+    bottom: 40px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.hojas::after {
+    bottom: 40px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+.seed2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 10px;
+    background-color: #8B4513; /* Color marrón para la semilla */
+    border-radius: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    top: 60px;
+}
+.centro {
+    position: absolute;
+    bottom: 110px; /* Ajusta esta altura según el alto del tallo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px; /* Ancho del centro del girasol */
+    height: 30px; /* Altura del centro del girasol */
+    background-color: rgb(43, 26, 15); /* Color dorado para el centro del girasol */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    
+    
+}
+.petalo1,.petalo2,.petalo3,.petalo4, .petalo5, .petalo6, .petalo7, .petalo8, .petalo9, .petalo10, .petalo11 {
+    position: absolute;
+    background-color: #ffff00;
+    height: 30px;
+    width: 16px;
+    border-radius: 50%;
+}
+.petalo1 {
+  
+    bottom: 137px;
+    left: 46%;
+    transform: rotate(340deg);
+    
+}
+
+.petalo2 {
+   
+    bottom: 138px;
+    left: 50%;
+    transform: rotate(20deg);
+   
+}
+.petalo3 {
+  
+    bottom: 132px;
+    left: 53%;
+    transform: rotate(52deg);
+    
+}
+.petalo4 {
+    bottom: 119px;
+    left: 54%;
+    transform: rotate(65deg);
+    
+}
+.petalo5{
+    bottom: 108px;
+    left: 54%;
+    transform: rotate(89deg);
+}
+
+.petalo6{
+    bottom: 98px;
+    left: 52%;
+    transform: rotate(120deg);
+}
+.petalo7{
+    bottom: 92px;
+    left: 49%;
+    transform: rotate(170deg);
+}
+.petalo8{
+    bottom: 93px;
+    left: 45%;
+    transform: rotate(210deg);
+}
+.petalo9{
+    bottom: 99px;
+    left: 41%;
+    transform: rotate(230deg);
+}
+.petalo10{
+    bottom: 113px;
+    left: 40%;
+    transform: rotate(280deg);
+}
+.petalo11{
+    bottom: 130px;
+    left: 41%;
+    transform: rotate(310deg);
+    width: 20px;
+
+
+
+
+}
+
+
+
+
+/*SEGUNDA FLOR*/
+.plant4 {
+    position: absolute;
+    bottom: 70px; /* Altura de la planta */
+    left: 30%;
+    transform: translateX(-50%);
+    width: 10px; /* Ancho del tallo */
+    height: 60px; /* Altura del tallo */
+    background-color: #228B22; /* Color verde para el tallo */
+    border-radius: 5px;
+}
+
+.plant4::before, .plant4::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+
+}
+
+.plant4::before {
+    bottom: 10px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.plant4::after {
+    bottom: 10px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+.hojas1::before, .hojas1::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+    
+}
+
+.hojas1::before {
+    bottom: 40px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.hojas1::after {
+    bottom: 40px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+.seed3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 10px;
+    background-color: #8B4513; /* Color marrón para la semilla */
+    border-radius: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    top: 60px;
+}
+.centro1 {
+    position: absolute;
+    bottom: 130px; /* Ajusta esta altura según el alto del tallo */
+    left: 30%;
+    transform: translateX(-50%);
+    width: 30px; /* Ancho del centro del girasol */
+    height: 30px; /* Altura del centro del girasol */
+    background-color: rgb(43, 26, 15); /* Color dorado para el centro del girasol */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    
+    
+}
+
+.petalo12,.petalo13,.petalo14,.petalo15, .petalo16, .petalo17, .petalo18, .petalo19, .petalo20, .petalo21, .petalo22 {
+    position: absolute;
+    background-color: #ffff00;
+    height: 30px;
+    width: 16px;
+    border-radius: 50%;
+    translate: -60px -20px;
+    
+}
+.petalo12 {
+  
+    bottom: 137px;
+    left: 46%;
+    transform: rotate(340deg);
+    
+}
+
+.petalo13 {
+   
+    bottom: 138px;
+    left: 50%;
+    transform: rotate(20deg);
+   
+}
+.petalo14 {
+  
+    bottom: 132px;
+    left: 53%;
+    transform: rotate(52deg);
+    
+}
+.petalo15 {
+    bottom: 119px;
+    left: 54%;
+    transform: rotate(65deg);
+    
+}
+.petalo16{
+    bottom: 108px;
+    left: 54%;
+    transform: rotate(89deg);
+}
+
+.petalo17{
+    bottom: 98px;
+    left: 52%;
+    transform: rotate(120deg);
+}
+.petalo18{
+    bottom: 92px;
+    left: 49%;
+    transform: rotate(170deg);
+}
+.petalo19{
+    bottom: 93px;
+    left: 45%;
+    transform: rotate(210deg);
+}
+.petalo20{
+    bottom: 99px;
+    left: 41%;
+    transform: rotate(230deg);
+}
+.petalo21{
+    bottom: 113px;
+    left: 40%;
+    transform: rotate(280deg);
+}
+.petalo22{
+    bottom: 130px;
+    left: 41%;
+    transform: rotate(310deg);
+    width: 20px;
+
+
+}
+
+/*FLOR 3*/
+.plant5 {
+    position: absolute;
+    bottom: 60px; /* Altura de la planta */
+    left: 70%;
+    transform: translateX(-50%);
+    width: 10px; /* Ancho del tallo */
+    height: 60px; /* Altura del tallo */
+    background-color: #228B22; /* Color verde para el tallo */
+    border-radius: 5px;
+}
+
+.plant5::before, .plant5::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+}
+
+.plant5::before {
+    bottom: 10px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.plant5::after {
+    bottom: 10px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+.hojas2::before, .hojas2::after {
+    content: '';
+    position: absolute;
+    width: 20px; /* Ancho de la hoja */
+    height: 10px; /* Altura de la hoja */
+    background-color: #32CD32; /* Color verde claro para la hoja */
+    border-radius: 10px;
+}
+
+.hojas2::before {
+    bottom: 40px; /* Posición de la hoja izquierda */
+    left: -5px; /* Desplazamiento a la izquierda */
+    transform: rotate(45deg);
+}
+
+.hojas2::after {
+    bottom: 40px; /* Posición de la hoja derecha */
+    right: -5px; /* Desplazamiento a la derecha */
+    transform: rotate(-45deg);
+}
+
+.seed4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 10px;
+    background-color: #8B4513; /* Color marrón para la semilla */
+    border-radius: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    top: 60px;
+}
+.centro2 {
+    position: absolute;
+    bottom: 122px; /* Ajusta esta altura según el alto del tallo */
+    left: 70%;
+    transform: translateX(-50%);
+    width: 30px; /* Ancho del centro del girasol */
+    height: 30px; /* Altura del centro del girasol */
+    background-color: rgb(43, 26, 15); /* Color dorado para el centro del girasol */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    
+    
+}
+.petalo23,.petalo24,.petalo25,.petalo26, .petalo27, .petalo28, .petalo29, .petalo30{
+    position: absolute;
+    background-color: #ffff00;
+    height: 30px;
+    width: 16px;
+    border-radius: 50%;
+    translate: 60px -10px;
+}
+.petalo23 {
+  
+    bottom: 139px;
+    left: 47%;
+    
+}
+
+.petalo24 {
+   
+    bottom: 138px;
+    left: 50%;
+    transform: rotate(20deg);
+   
+}
+.petalo25 {
+  
+    bottom: 132px;
+    left: 53%;
+    transform: rotate(52deg);
+    
+}
+.petalo26 {
+    bottom: 119px;
+    left: 54%;
+    transform: rotate(65deg);
+    
+}
+.petalo27{
+    bottom: 108px;
+    left: 54%;
+    transform: rotate(89deg);
+}
+
+.petalo28{
+    bottom: 98px;
+    left: 52%;
+    transform: rotate(120deg);
+}
+.petalo29{
+    bottom: 92px;
+    left: 49%;
+    transform: rotate(170deg);
+}
+.petalo30{
+    bottom: 93px;
+    left: 45%;
+    transform: rotate(210deg);
+}
